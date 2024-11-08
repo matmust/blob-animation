@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Embedded Spline Animation</title>
+    <style>
+        /* Set html and body to take up the full viewport without causing overflow */
+        html, body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        /* Ensure iframe fills the viewport and maintains aspect ratio */
+        iframe {
+            width: 100vw;
+            height: 100vh;
+            border: none;
+        }
+    </style>
 </head>
 <body>
     <iframe src="https://my.spline.design/blobhomecopycopy-d7a4715d598d1ce2b8af7cdf6a04bf76/" frameborder="0" style="width: 100%; height: 100%;" loading="lazy"></iframe>
